@@ -7,7 +7,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 }
 
 func intro(w http.ResponseWriter,r *http.Request){
-	fmt.Fprinttf(w, "Hello World")
+	fmt.Fprintf(w, "Hello World")
 }
 
 func main() {
